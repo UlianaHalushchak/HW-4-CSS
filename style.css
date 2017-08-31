@@ -1,4 +1,4 @@
-body { 
+body{ 
     background-color: #638a79;
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
@@ -31,7 +31,7 @@ body {
 }
 
 .content .content-middle {
-    padding: 20px;30px;
+    padding: 20px; 30px;
 }
 	
 h1 {
