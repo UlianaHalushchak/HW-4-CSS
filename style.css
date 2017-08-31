@@ -4,17 +4,14 @@ body{
     background-repeat: repeat-x;
     background-position: fixed;
     font-size: 13px;
-    color: #333;
     line-height: 18px;
     font-family: Arial;
+    color: #333;
 }
 
 .content {
     weight: 840px;
-    /*/*padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;*/
+    /*padding-top: 20px 30 px; */
     background-color: #fff;
     margin-top: 100px;
     margin-left: auto;
@@ -38,8 +35,8 @@ body{
 }
 	
 h1 {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 26px;
+    line-height: 36px;
     color: #2b8c57;
     font-weight: normal;
     padding-bottom: 10px;
@@ -72,24 +69,24 @@ div.block-2 {
     padding: 20px 30px;
     background-color: #356149;
     background-image: url("img/picture-1.png");
-    background-position: bottom right;
     background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 a.button {
+    background-image: url("img/button-1.png");
     display:block;
     width: 121px;
     height: 38px;
     text-decoration: none;
-    background-image: url("img/button-1.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
 }
 
 a.button:hover {
-    background-position: 0px -38px;
+    background-position: 0px 38px;
 }
 
 a.button:active {
-    background-position: 0px -76px;
+    background-position: 0px 76px;
 }
