@@ -74,11 +74,11 @@ div.block-2 {
 }
 
 a.button {
-    background-image: url("img/button-1.png");
     display:block;
     width: 121px;
     height: 38px;
     text-decoration: none;
+    background-image: url("img/button-1.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
 }
