@@ -2,7 +2,7 @@ body {
     background-color: #638a79;
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
-    background-position: fixed;
+    background-attachment: fixed;
     font-size: 13px;
     line-height: 18px;
     color: #333;
@@ -11,7 +11,7 @@ body {
 
 .content {
     /*padding-top: 20px 30px;*/
-    weight: 840px;
+    width: 840px;
     background-color: #fff;
     margin-top: 100px;
     margin-left: auto;
